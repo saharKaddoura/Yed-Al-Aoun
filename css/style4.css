@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/a1.jpeg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bb {
+  text-align: center;
+  color: white;
+}
+
+form input {
+  display: flex;
+  padding: 15px;
+  margin: 15px;
+  border-top: none;
+  border: 3px solid gray;
+  border-radius: 40px;
+  background-color: transparent;
+}
+.btn {
+  color: white;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  background-color: blue;
+  border: none;
+  padding: 10px;
+  margin-left: 55px;
+}
+.btn:hover {
+  opacity: 0.5;
+}
+.volun {
+  float: right;
+}
+
+form.volunteer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  width: 800px;
+}
+
+input.vol-input {
+  width: 300px;
+}
+
+input.btn.vol-submit.btn-primary {
+  width: 440px;
+}
+
+
+
+span.cv-span {
+  font-size: 13px;
+  color: #048b9e !important;
+  position: absolute;
+  bottom: 46px;
+  right: 27%;
+}
+.file-input {
+  font-size: 16px;
+  color: #048b9e;
+}
+
+input.vol-input {
+  width: 300px;
+  font-size: 16px;
+  color: #048b9e !important;
+}
+
+input.btn.vol-submit {
+  font-size: 16px;
+  background: #048b9e !important;
+}
+
+span.vol-span {
+  color: #048b9e;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+h1.bb.vol-title {
+  background: #048b9e !important;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.vol-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input.btn.vol-submit.btn-primary {
+  min-width: 300px;
+  text-align: center;
+  margin: 0;
+}
